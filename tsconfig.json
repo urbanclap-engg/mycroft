@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist",
+    "sourceMap": true,
+    "lib": ["es2017"],
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "alwaysStrict": true,
+    "baseUrl": ".",
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "paths": {
+      "*": [
+        "node_modules/"
+      ],
+      "typings/*": [
+        "src/typings/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "test/**/*.ts"
+  ]
+}

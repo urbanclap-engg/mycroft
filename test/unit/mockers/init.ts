@@ -1,0 +1,1 @@
+process.env.MYCROFT_MONITORING_ENABLED = 'true';
